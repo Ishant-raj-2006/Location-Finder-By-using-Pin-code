@@ -1,49 +1,85 @@
+/* Puri page (body) ke liye styling */
 body {
+    /* Font style Arial set karo, warna sans-serif fonts use karo */
     font-family: Arial, sans-serif;
+    /* Body ke around koi margin (bahar se space) nahi chahiye */
     margin: 0;
+    /* Body ke andar se padding (andar se space) nahi chahiye */
     padding: 0;
+    /* Flexbox use karo taaki content ko center mein display kar sakein */
     display: flex;
+    /* Horizontally content ko center mein rakh do */
     justify-content: center;
+    /* Vertically content ko center mein rakh do */
     align-items: center;
+    /* Height 100% viewport ka (poora screen) */
     height: 100vh;
-    background-color: #f0f0f0;
+    /* Background light gray color (#f0f0f0) */
+    background-color: #3a03687e;
 }
 
+/* Main container div ke liye styling */
 .container {
+    /* Text ko center align karo */
     text-align: center;
+    /* Background white color rakho */
     background: white;
+    /* Andar se 20px padding (space) dedo */
     padding: 20px;
+    /* Corners ko rounded banao (border-radius = 8px) */
     border-radius: 8px;
+    /* Container ke around shadow laga do (depth effect) */
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    /* Maximum width 600px rakho */
     max-width: 600px;
+    /* Full width use karo (agar screen chhota ho) */
     width: 100%;
 }
 
+/* Heading (h1) ke liye styling */
 h1 {
+    /* Heading ka color dark gray rakho */
     color: #333;
 }
 
+/* Pincode input field ke liye styling */
 #pincode {
+    /* Input ke andar 10px padding dedo */
     padding: 10px;
+    /* Text ka size 16px rakho */
     font-size: 16px;
+    /* Input field ki width 200px */
     width: 200px;
+    /* Input ke neeche 20px space dedo */
     margin-bottom: 20px;
+    /* Input field ke around ek border lagao (1px solid light gray) */
     border: 1px solid #ccc;
+    /* Border ke corners ko rounded banao */
     border-radius: 4px;
 }
 
+/* Results div ke liye styling */
 #results {
+    /* Results section ke upar 20px space dedo */
     margin-top: 20px;
 }
 
+/* Address display ke liye styling */
 #address {
+    /* Address ke neeche 20px space dedo */
     margin-bottom: 20px;
+    /* Address text ka size 18px rakho */
     font-size: 18px;
+    /* Address text ka color medium gray (#555) */
     color: #555;
 }
 
+/* Map container ke liye styling */
 #map {
+    /* Map ki height 300px set karo */
     height: 300px;
+    /* Map ki width 100% (full container) */
     width: 100%;
+    /* Map ke corners ko slightly rounded banao */
     border-radius: 4px;
 }
